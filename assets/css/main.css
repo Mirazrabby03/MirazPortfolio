@@ -2800,7 +2800,8 @@ input, select, textarea {
 	  .skill-bars{
 		  
 		padding: 20px 30px;
-		width: 350px;
+		width: auto;
+		margin: auto;
 		background: #fff;
 		box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
 		border-radius: 10px;
@@ -2856,13 +2857,19 @@ input, select, textarea {
 		width: 90%;
 	  }
 	  .bar .progress-line.css span{
-		width: 60%;
+		width: 80%;
 	  }
 	  .bar .progress-line.javascript span{
 		width: 85%;
 	  }
+	  .bar .progress-line.nodeJs span{
+		width: 80%;
+	  }
+	  .bar .progress-line.react span{
+		width: 75%;
+	  }
 	  .bar .progress-line.bootstrap span{
-		width: 50%;
+		width: 60%;
 	  }
 	  .bar .progress-line.mysql span{
 		width: 75%;
@@ -2903,13 +2910,19 @@ input, select, textarea {
 		content: "90%";
 	  }
 	  .progress-line.css span::after{
-		content: "60%";
+		content: "70%";
 	  }
 	  .progress-line.javascript span::after{
 		content: "85%";
 	  }
+	  .progress-line.nodeJs span::after{
+		content: "80%";
+	  }
+	  .progress-line.react span::after{
+		content: "75%";
+	  }
 	  .progress-line.bootstrap span::after{
-		content: "50%";
+		content: "60%";
 	  }
 	  .progress-line.mysql span::after{
 		content: "75%";
